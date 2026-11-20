@@ -63,4 +63,4 @@ pnpm smoke
 
 游戏专属 favicon、标题和描述已接入构建，并核对过 32×32 图标与实际输出文件。OG/Twitter 分享封面生成结果未能回写到本地项目，因此当前构建不含分享图片标签；这不影响本地游戏。
 
-项目文件和本地预览保留在当前工作目录。官方 Three.js 资源同步脚本无法从 Managed Git 执行环境加载，因此本轮没有托管 checkpoint；此次也没有公开发布。
+本仓库为移除独立「荒兽图鉴」页面后的版本，游戏内「猎人手记」保留。源码托管于 https://github.com/KTBOY/yeren-clean ，线上试玩地址为 https://ktboy.github.io/yeren-clean/ 。改动源码后双击 `deploy-pages.bat` 即可重新构建并更新 Pages。
