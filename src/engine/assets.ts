@@ -15,14 +15,27 @@ import MANIFEST_JSON from './manifest.json'
  */
 export type Stage = 'boot' | 'coast' | 'highlands' | 'caldera'
 
-const M = (n: string) => `/models/${n}.glb`
-const S = (n: string) => `/audio/sfx/${n}.mp3`
-const L = (n: string) => `/audio/layers/${n}.mp3`
-const A = (n: string) => `/audio/amb/${n}.mp3`
-const MU = (n: string) => `/audio/music/${n}.mp3`
-const T = (n: string) => `/vfx/${n}.webp`
+// Runtime-fetched assets are rooted at the app's base, not the site origin.
+// The site is deployed under a sub-path (GitHub Pages /yeren-clean/), so an
+// absolute "/models/..." would 404 at the origin. BASE_URL is "/" in dev and
+// "./" in the production build (see vite.config.ts `base: './'`).
+const BASE = import.meta.env.BASE_URL
+const asset = (path: string) => `${BASE}${path}`
 
-export const MANIFEST: Record<Stage, string[]> = MANIFEST_JSON
+const M = (n: string) => asset(`models/${n}.glb`)
+const S = (n: string) => asset(`audio/sfx/${n}.mp3`)
+const L = (n: string) => asset(`audio/layers/${n}.mp3`)
+const A = (n: string) => asset(`audio/amb/${n}.mp3`)
+const MU = (n: string) => asset(`audio/music/${n}.mp3`)
+const T = (n: string) => asset(`vfx/${n}.webp`)
+
+// Manifest stores origin-rooted paths; resolve each against the base as well.
+export const MANIFEST: Record<Stage, string[]> = Object.fromEntries(
+  Object.entries(MANIFEST_JSON).map(([stage, urls]) => [
+    stage,
+    (urls as string[]).map(u => asset(u.replace(/^\//, ''))),
+  ]),
+) as Record<Stage, string[]>
 
 type Entry = { url: string; state: 'idle' | 'loading' | 'ready' | 'failed'; value?: unknown; waiters: ((v: unknown) => void)[] }
 
@@ -77,7 +90,7 @@ export class Assets {
     try {
       if (url.endsWith('.glb')) e.value = await this.gltfLoader.loadAsync(url)
       else if (url.endsWith('.webp') || url.endsWith('.png') || url.endsWith('.jpg')) {
-        if (url.startsWith('/vfx/')) {
+        if (/\/vfx\//.test(url)) {
           const t = await this.texLoader.loadAsync(url)
           t.colorSpace = THREE.SRGBColorSpace
           e.value = t
