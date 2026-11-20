@@ -1,0 +1,252 @@
+{
+  "archiveSha256": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9",
+  "archiveSizeBytes": 104088529,
+  "catalogMetadata": [
+    {
+      "archiveSha256": "298f6732b872e4cf7b30e6e7abf9641c7f6dc6b326df37ac089533ed7e3d58c9",
+      "catalogPath": "3d-models/vegetation/itch-io-2862214/assets.zip",
+      "license": {
+        "attributionRequired": false,
+        "commercialUseAllowed": true,
+        "copyrightNoticeRequired": false,
+        "editableProjectDistributionAllowed": true,
+        "id": "CC0-1.0",
+        "licenseNoticeRequired": false,
+        "modificationNoticeRequired": false,
+        "reusableTemplateDistributionAllowed": true,
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "metadataPath": "3d-models/vegetation/itch-io-2862214/metadata.json",
+      "metadataSha256": "a1c5fb8d2ba1621b1e88ba1aca42485edf65853c2463bc284c85e8714746088f",
+      "snapshotId": "catalog-20260924-japan-characters-scene-removal-v1",
+      "source": {
+        "metadataPath": "3d-models/vegetation/itch-io-2862214/metadata.json",
+        "metadataSha256": "sha256:a1c5fb8d2ba1621b1e88ba1aca42485edf65853c2463bc284c85e8714746088f",
+        "name": "Stylized Nature MegaKit",
+        "packId": "itch-io:2862214",
+        "url": "https://quaternius.itch.io/stylized-nature-megakit"
+      }
+    }
+  ],
+  "catalogSources": [
+    {
+      "catalogPath": "3d-models/vegetation/itch-io-2862214/assets.zip",
+      "snapshotId": "catalog-20260924-japan-characters-scene-removal-v1"
+    }
+  ],
+  "dependencyCoverage": "glb-gltf-obj-mtl-textureatlas-bmfont-tiled",
+  "limitations": [],
+  "members": [
+    {
+      "member": "glTF/Bark_DeadTree.png",
+      "sha256": "8f055724c35f8e8c5685a505775b3b9ebfc6b4745308ef35ce1cfe6fd976153f",
+      "sizeBytes": 4228870
+    },
+    {
+      "member": "glTF/Bark_DeadTree_Normal.png",
+      "sha256": "692da2f58909263f074cb17b36defd09f56bf89ab7efda567a9a3e59261747b3",
+      "sizeBytes": 5728199
+    },
+    {
+      "member": "glTF/Bark_NormalTree.png",
+      "sha256": "f36e94fdd73255347325b998e02a0b2575fdf714b0315bfe5e8ff34bc8e13603",
+      "sizeBytes": 3894788
+    },
+    {
+      "member": "glTF/Bark_NormalTree_Normal.png",
+      "sha256": "852f6155404b8c39e100e41e26970e02a6a5c81b482d3726618dab28e3ad03a2",
+      "sizeBytes": 4384496
+    },
+    {
+      "member": "glTF/Bark_TwistedTree.png",
+      "sha256": "01608a96c42954eb725b32824530b51e67a2f3d85432d21a8d8adff958d2084a",
+      "sizeBytes": 4630805
+    },
+    {
+      "member": "glTF/Bark_TwistedTree_Normal.png",
+      "sha256": "692da2f58909263f074cb17b36defd09f56bf89ab7efda567a9a3e59261747b3",
+      "sizeBytes": 5728199
+    },
+    {
+      "member": "glTF/Bush_Common_Flowers.bin",
+      "sha256": "15f56a013afe0eecaded0eb97fd8f323305af11e1f0f7bb9b68472ec4cdc20d5",
+      "sizeBytes": 128928
+    },
+    {
+      "member": "glTF/Bush_Common_Flowers.gltf",
+      "sha256": "08768c680e3abeafd25858c9d3f369bcb7eed014661d3b6825a397f2a6a3deea",
+      "sizeBytes": 3654
+    },
+    {
+      "member": "glTF/CommonTree_1.bin",
+      "sha256": "9dd689e84e1aa2f5b08db8def591254d582783c73737af54ba0d89b3e549c3ae",
+      "sizeBytes": 491576
+    },
+    {
+      "member": "glTF/CommonTree_1.gltf",
+      "sha256": "b51cdea6545edb51d102dd6c27caafe62aa75e3c328ac8f9039f4e7bfd690bfa",
+      "sizeBytes": 3869
+    },
+    {
+      "member": "glTF/CommonTree_3.bin",
+      "sha256": "24541f46fd9553e2389aba15575f2697009226e82118ed76868284114fd12b49",
+      "sizeBytes": 296984
+    },
+    {
+      "member": "glTF/CommonTree_3.gltf",
+      "sha256": "17c6537aa8042bb7255fbb501bf7aeb2b6db87c16766f794f9c37be3ce70c976",
+      "sizeBytes": 3864
+    },
+    {
+      "member": "glTF/CommonTree_5.bin",
+      "sha256": "0e617612d50e6bb2ca3c64338383f8938ce9e04d55b548ff11cec7a7b7d8f072",
+      "sizeBytes": 252996
+    },
+    {
+      "member": "glTF/CommonTree_5.gltf",
+      "sha256": "fb7061f2bf9fe850870b056431f8f66cd8fdeb443c90695c5efbcf1fe6876d53",
+      "sizeBytes": 3860
+    },
+    {
+      "member": "glTF/DeadTree_1.bin",
+      "sha256": "d623cfc5199a732cc988175fad149e8afcb84516df01a8dc1e378844019f408c",
+      "sizeBytes": 422744
+    },
+    {
+      "member": "glTF/DeadTree_1.gltf",
+      "sha256": "b7ca9e90cbd8e8e3b3b17fd9c8fd57184ebf4986ff433ee3f2212f37f3114469",
+      "sizeBytes": 2206
+    },
+    {
+      "member": "glTF/DeadTree_3.bin",
+      "sha256": "5c3b29bf37c700f5ca545b315f6423d966562d7af01116fdd2d8f94a6173959e",
+      "sizeBytes": 415740
+    },
+    {
+      "member": "glTF/DeadTree_3.gltf",
+      "sha256": "aa74a47c69259f217388d7b3e2871d76c0385449fc1efd92299c2e55417fdffc",
+      "sizeBytes": 2211
+    },
+    {
+      "member": "glTF/Fern_1.bin",
+      "sha256": "5e92b87a27f81a69fe15347a533df3c77d567b48298dceeef43168ccb7c22853",
+      "sizeBytes": 11448
+    },
+    {
+      "member": "glTF/Fern_1.gltf",
+      "sha256": "d41915cffe9dbbde1ae88be381eb9c60f7caa2274511436cc78fe4de627468ab",
+      "sizeBytes": 2058
+    },
+    {
+      "member": "glTF/Flower_3_Group.bin",
+      "sha256": "5ab387dd3d6fe181df3af4eeac4df85533e4c27e77545ae39a61e0c2aaaab248",
+      "sizeBytes": 27772
+    },
+    {
+      "member": "glTF/Flower_3_Group.gltf",
+      "sha256": "4df1612371982c543f930d6b213967372e0d459622d7eff7fc2ed1ddbfaa3b6c",
+      "sizeBytes": 3629
+    },
+    {
+      "member": "glTF/Flowers.png",
+      "sha256": "5c531f2329c241c625aafd6cb769de29f33b480ef2a16491c2489f3c68e62a6a",
+      "sizeBytes": 444609
+    },
+    {
+      "member": "glTF/Grass.png",
+      "sha256": "5d69048193b246a73c996b892607fb36c75d0c60afcb2dab8aa12de3c0b2d9bd",
+      "sizeBytes": 33605
+    },
+    {
+      "member": "glTF/Grass_Wispy_Tall.bin",
+      "sha256": "a46e091f39958242a96722ea331efa8d7fb055c6e24d21aea6b0ac091a7b1b66",
+      "sizeBytes": 29492
+    },
+    {
+      "member": "glTF/Grass_Wispy_Tall.gltf",
+      "sha256": "a05e3ac05e43abbdb89c5b61134e367c7d33e285ff8d2a6e0a40180cb335af0b",
+      "sizeBytes": 2023
+    },
+    {
+      "member": "glTF/Leaves.png",
+      "sha256": "23248cebe28a24e78add32db3c2ee2f4d7b9219e9d2467279722f0197a7b6bd5",
+      "sizeBytes": 2586432
+    },
+    {
+      "member": "glTF/Leaves_NormalTree_C.png",
+      "sha256": "998612bdf0b76a22f5f54d65cd7a457815d2842d89653fa4348a4ebb42933ad3",
+      "sizeBytes": 158796
+    },
+    {
+      "member": "glTF/Leaves_TwistedTree_C.png",
+      "sha256": "0e459b56b14c0e81b1b7cf3d1e8c6f0bb71790eb6c46bb02a76a922d8df646ea",
+      "sizeBytes": 70353
+    },
+    {
+      "member": "glTF/Plant_1_Big.bin",
+      "sha256": "aed5d27bb5a06e0e174d927e6c9850d8567f1b72820d2150323ca9374c3336bc",
+      "sizeBytes": 16560
+    },
+    {
+      "member": "glTF/Plant_1_Big.gltf",
+      "sha256": "8c22e28d1ad79f3967c0022265b1d09319a3d82cbf14238de0cc77b5fe7e370a",
+      "sizeBytes": 2075
+    },
+    {
+      "member": "glTF/Plant_7_Big.bin",
+      "sha256": "745e7dd5c8adde53b2305db4e7698a942a4f8e36f97a83ebd6eb05dde6633808",
+      "sizeBytes": 4704
+    },
+    {
+      "member": "glTF/Plant_7_Big.gltf",
+      "sha256": "279b54d91b66f303fdef76437c3a0b0ec5ba90d4fc9244e87f8b11ee7f304eb3",
+      "sizeBytes": 1857
+    },
+    {
+      "member": "glTF/Rock_Medium_1.bin",
+      "sha256": "ea79527d4c2b3bdb7a28bf589bf0c1fd96d192a4d0738636753911dd58681e99",
+      "sizeBytes": 13284
+    },
+    {
+      "member": "glTF/Rock_Medium_1.gltf",
+      "sha256": "5d1ab1fa03218f4a908728ed0eabe6486344a7e4f510b0d3d6f837fd1d011bd8",
+      "sizeBytes": 1831
+    },
+    {
+      "member": "glTF/Rock_Medium_2.bin",
+      "sha256": "76b60bf8349f71abdb0ed462b3223d93c2dcabdfb5754bc132e18b021cc6c805",
+      "sizeBytes": 9432
+    },
+    {
+      "member": "glTF/Rock_Medium_2.gltf",
+      "sha256": "fac2d05a05f2d0d2098de59c09b58f42cc875c9caca4fd4c4bd57f3d36e7b12e",
+      "sizeBytes": 1825
+    },
+    {
+      "member": "glTF/Rocks_Diffuse.png",
+      "sha256": "b813696df6081f469a127092eb0ce45cc39d56f3ccc0699152bfcd3804810b48",
+      "sizeBytes": 2517398
+    },
+    {
+      "member": "glTF/TwistedTree_1.bin",
+      "sha256": "58e4c16c16e0a71051af76a37be0641ea8f7089652687f957383d3c4bd24723b",
+      "sizeBytes": 732456
+    },
+    {
+      "member": "glTF/TwistedTree_1.gltf",
+      "sha256": "8544b084e1fadfbec981e964ce27463f50c39c460513e0d3442160880c5908a7",
+      "sizeBytes": 3819
+    },
+    {
+      "member": "glTF/TwistedTree_3.bin",
+      "sha256": "04ad394055b72a3d3717d8e3617ae733ea155580330d94d7387238928755eaca",
+      "sizeBytes": 771176
+    },
+    {
+      "member": "glTF/TwistedTree_3.gltf",
+      "sha256": "c719e6f2f26bb5f4a32f92194b71f432e2444870cb0f3b41989e05c7ad3b9ecd",
+      "sizeBytes": 3817
+    }
+  ],
+  "version": 1
+}
