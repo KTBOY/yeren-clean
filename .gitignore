@@ -1,7 +1,12 @@
 node_modules/
 dist/
 shots/
-/.manus-webdev/preview-identity.json
+
+# 生成工具留下的缓存与元数据，非游戏运行所需
+/.manus/
+/.manus-webdev/
+/.manus-starter-init.json
+/manus-webdev.json
 
 # 原始整合素材包约 574 MB，超过 GitHub 单文件 100 MB 限制，不随仓库发布
 /inputs/
