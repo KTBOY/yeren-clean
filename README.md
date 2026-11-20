@@ -2,8 +2,6 @@
 
 **烬野：暗影回响** 是一款单人第三人称狩猎与生存动作游戏。你将踏入永夜笼罩的火山荒岛，追踪并猎杀荒兽，采集素材、制作兵装、升级营地，最终重燃远古信标，直面岛上的远古霸主。
 
-本作以《暗黑破坏神》的黑暗奇幻氛围作为美术方向参考，但为独立原创作品：使用冷月、火山余烬、荒原遗迹与石刻界面塑造压迫感，不包含其专有角色、标识、剧情或素材，也不代表官方关联。
-
 ## 操作方式
 
 | 按键 | 操作 |
@@ -55,4 +53,4 @@ pnpm smoke
 
 ## 发布状态
 
-本仓库为移除独立「荒兽图鉴」页面后的版本，游戏内「猎人手记」保留。源码托管于 https://github.com/KTBOY/yeren-clean ，线上试玩地址为 https://ktboy.github.io/yeren-clean/ 。改动源码后双击 `deploy-pages.bat` 即可重新构建并更新 Pages。
+源码托管于 https://github.com/KTBOY/yeren-clean ，线上试玩地址为 https://ktboy.github.io/yeren-clean/ 。改动源码后双击 `deploy-pages.bat` 即可重新构建并更新 Pages。
